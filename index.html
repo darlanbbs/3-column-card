@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="materialize inicio/css/materialize.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | 3-column preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution{background-color: #f57c00; width: 100%;}
+    body{
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    .row,.col{
+      height: 450px;
+    }
+    .box {
+      width: 350px !important; 
+     
+    }
+    .box1{
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+    .box3{
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+    .flow-text{
+      width: 60%;
+      font-size: 15px;
+      font-weight: 400;
+      height: 160px;
+      display: flex;
+      justify-content: start !important;
+      margin-left: 30px;
+      color: hsla(0, 0%, 100%, 0.75);
+      font-family: 'Lexend Deca';
+     
+    }
+    img{
+      display: flex;
+      justify-content: start !important;
+      margin-left: 30px;
+      margin-top: 30px;
+    }
+    h3{
+      text-transform: uppercase;
+      font-weight: 700;
+      display: flex;
+      justify-content: start !important;
+      margin-left: 30px;
+      
+      font-family: 'Big Shoulders Display';
+    }
+
+    .botoes-panel{
+      display: flex;
+      justify-content: start !important;
+      align-items: center;
+      margin-left: 30px;
+    }
+    .botoes{
+      background-color: #fff;
+      padding: 15px 50px;
+      border-radius: 30px;
+      border: none;
+      font-weight: bold;
+      
+    }
+    .botao1{
+      color:#f57c00;
+    }
+    .botao2{
+     color: #009688;
+    }
+    .botao3{
+      color: #004d40;
+    }
+    .botoes:hover{
+      background-color: transparent;
+      color: #fff0FF;
+      border: solid 1px #000;
+    }
+    .botoes:focus{
+      color: black;
+      border: solid 1px #000;
+    }
+    
+    /* dont ask me why */
+@media(max-width:1500px){
+  .attribution{
+    display: none;
+  }
+  .box1{
+      border-top-right-radius: 10px;
+      border-bottom-left-radius: 0;
+}
+.box3{
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+}
+  </style>
+</head>
+<body>
+<div class="row container white-text">
+<div class="col s4 #f57c00 orange darken-2 box box1">
+  <img src="images/icon-sedans.svg" alt="">
+  <h3>
+    Sedans
+  </h3>
+  <p class="flow-text text">
+    Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
+    or on your next road trip.
+  </p>
+  <div class="botoes-panel">
+    <button class="botoes botao1">Learn More</button>
+  </div>
+</div>
+  <div class="col s4 #009688 teal box">
+    <img src="images/icon-suvs.svg" alt="">
+    <h3 class="">
+      SUVs
+    </h3>
+    <p class="flow-text text">
+      Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
+      and off-road adventures.
+    </p>
+    <div class="botoes-panel">
+      <button class="botoes botao2">Learn More</button>
+    </div>
+  </div>
+  <div class="col s4 #004d40 teal darken-4 box box3">
+    <img src="images/icon-luxury.svg" alt="">
+    <h3 class="">
+      Luxury
+    </h3>
+    <p class="flow-text text">
+      Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
+      rental and arrive in style.
+    </p>
+    <div class="botoes-panel">
+      <button class="botoes botao3">Learn More</button>
+    </div>
+  </div>
+</div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/darlanbbs" target="_blank"> Darlanbbs</a>.
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+  <script src="materialize inicio/js/materialize.js"></script>
+</body>
+</html>
