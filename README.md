@@ -2,9 +2,12 @@
 
 # Sobre o projeto
 
-# Desafio do (https://www.frontendmentor.io/challenges) 3 column card preview desafio newbie
+# Desafio do (https://www.frontendmentor.io/challenges) 3 column card preview desafio newbie feito com Materialize
 
 
 # Tecnologias Usadas
 
-- Html / Css / Javascript 
+- Html / Css / Javascript / Materialize
+
+
+
