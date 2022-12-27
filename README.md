@@ -7,7 +7,7 @@
 
 # Tecnologias Usadas
 
-- Html / Css / Javascript / Materialize
+- Html / Css / Materialize
 
 
 
